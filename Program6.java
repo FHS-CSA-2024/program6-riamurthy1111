@@ -14,13 +14,19 @@ public class Program4{
         System.out.println("The Radius of the circle = " + radius);
         System.out.println("The Diameter of the circle = " + diameter);
         area = pi * radius * radius;
+        area = ((int)((((area) + 0.0005) *1000))/1000.0);
         System.out.println("The Area of the circle = " + area);
         circumference = pi * diameter;
+        circumference = ((int)((((circumference) + 0.0005) *1000))/1000.0);
         System.out.println("The Circumference of the circle = " + circumference);
     }
 }
 //Paste console output below:
 /*
-
-
+Enter the radius:
+3.712
+The Radius of the circle = 3.712
+The Diameter of the circle = 7.424
+The Area of the circle = 43.288
+The Circumference of the circle = 23.323
 */
